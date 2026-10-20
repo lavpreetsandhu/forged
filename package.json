@@ -7,7 +7,7 @@
     "prepare": "husky",
     "format": "prettier . --write",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "start": "node api.js && expo start",
+    "start": "node init && expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
